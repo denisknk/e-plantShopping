@@ -34,15 +34,12 @@
   backdrop-filter: blur(4px);
   background-color: rgba(0,0,0,0.5);
   gap: 20px;
+  padding: 20px;
 }
 
 .landing_content {
- margin-top: 430px;
-  margin-left: 100px;
-  transform: translate(-50%, -50%);
   z-index: 1;
   text-align: center;
-  /* background-color: red; */
   width: 400px;
   height: 400px;
   display: flex;
@@ -50,6 +47,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+  margin-right: 50px;
 }
 
 .content p,
